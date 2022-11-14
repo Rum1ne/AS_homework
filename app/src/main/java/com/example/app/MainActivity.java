@@ -58,26 +58,20 @@ public class MainActivity extends AppCompatActivity {
                 textView2.setText("");
             }
         } else if (b == 0) {
-            if (-c >= 0) {
+            if (-c > 0) {
                 textView1.setText("x1 = " + String.format("%.2f", Math.sqrt(-c)));
                 //Toast.makeText(this, "x1 = " + Math.sqrt(-c), Toast.LENGTH_SHORT).show();
                 textView2.setText("x2 = " + String.format("%.2f", -Math.sqrt(-c)));
                 //Toast.makeText(this, "x2 = " + (-Math.sqrt(-c)), Toast.LENGTH_SHORT).show();
+            } else if (c == 0) {
+                textView1.setText("x = " + 0);
+                //Toast.makeText(this, "x = " + 0, Toast.LENGTH_SHORT).show();
+                textView2.setText("");
             } else {
                 textView1.setText("Решения нет");
                 //Toast.makeText(this, "Корней нет", Toast.LENGTH_SHORT).show();
                 textView2.setText("");
             }
-        } else if (c == 0) {
-            if (a == 0) {
-                text View.setText("x = " + 0);
-                //Toast.makeText(this, "x = " + 0, Toast.LENGTH_SHORT).show();
-                textView2.setText("");
-            } else { 
-                textView1.setText("x1 = " + 0);
-                //Toast.makeText(this, "x1 = " + 0, Toast.LENGTH_SHORT).show();
-                textView2.setText("x2 = " + String.format("%.2f", -b / a));
-                //Toast.makeText(this, "x2 = " + (-b / a), Toast.LENGTH_SHORT).show();
         } else if (d < 0) {
             textView1.setText("Решения нет");
             //Toast.makeText(this, "Корней нет", Toast.LENGTH_SHORT).show();
