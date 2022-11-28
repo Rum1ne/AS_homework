@@ -11,10 +11,5 @@
     <color name="dark_green">#006400</color>
     <color name="main_background">#67B99C</color>
     <color name="text_color">#000000</color>
-    <color name="still">#25C3D3FD</color>
-    <color name="wrong">#48FF0000</color>
-    <color name="correct">#3937FF00</color>
-    <color name="button_color_start">#BF007F</color>
-    <color name="button_color_end">#BF001D</color>
 
 </resources>
