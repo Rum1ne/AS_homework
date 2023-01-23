@@ -23,6 +23,10 @@ public class Pipe extends GameObject {
         return currentScore;
     }
 
+    public void setCurrentScore(int currentScore) {
+        this.currentScore = currentScore;
+    }
+
     public Pipe(Context context, float height, float width) {
         super(width, 0);
         this.height = height;

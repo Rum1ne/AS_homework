@@ -79,6 +79,7 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback {
             bird.fly();
             if (!drawThread.running) {
                 drawThread = new DrawThread();
+                pipe.setCurrentScore(0);
                 init();
                 drawThread.start();
             }
