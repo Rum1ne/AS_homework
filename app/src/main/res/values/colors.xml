@@ -10,5 +10,7 @@
     <color name="dark_blue">#0000B0</color>
     <color name="dark_green">#006400</color>
     <color name="light_blue">#86CFFF</color>
+    <color name="button_color">#33000000</color>
+    <color name="text_color">#CC000000</color>
 
 </resources>
